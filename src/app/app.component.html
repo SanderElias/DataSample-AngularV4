@@ -2,16 +2,23 @@
 <h1>Data sample demo app</h1>
 <ul>
   <li>total {{cust.data.length}}</li>
-  <li>unique firstnames {{firsts.size}}</li>
-  <li>unique lastnames{{lasts.size}}</li>
+  <li>unique firstnames {{cust.firsts.size}}</li>
+  <li>unique lastnames{{cust.lasts.size}}</li>
 </ul>
 
-<button (click)="reset()">reset</button>
+<button (click)="cust.reset()">reset</button>
 
-<select name="first" (change)='uplasts($event.target.value)'>
-  <option *ngFor="let f of firsts" [value]="f" >{{f}}</option>
+<select name="first" (change)='cust.uplasts($event.target.value)'>
+  <option *ngFor="let f of cust.firsts" [value]="f" >{{f}}</option>
 </select>
 
-<select name="last" (change)='upfirsts($event.target.value)'>
-    <option *ngFor="let f of lasts" [value]="f" >{{f}}</option>
+<select name="last" (change)='cust.upfirsts($event.target.value)'>
+    <option *ngFor="let f of cust.lasts" [value]="f" >{{f}}</option>
 </select>
+
+<!-- <table>
+  <tr>
+    <th>firstname</th>
+    <th>lastname</th>
+  </tr>
+</table> -->
