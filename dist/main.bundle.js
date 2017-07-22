@@ -61,7 +61,7 @@ var AppComponent = (function () {
         this.cust = cust;
     }
     AppComponent = __decorate([
-        __WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */]({
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
             selector: 'app-root',
             template: __webpack_require__("../../../../../src/app/app.component.html"),
             styles: [__webpack_require__("../../../../../src/app/app.component.css")]
@@ -99,7 +99,7 @@ var AppModule = (function () {
     function AppModule() {
     }
     AppModule = __decorate([
-        __WEBPACK_IMPORTED_MODULE_1__angular_core__["L" /* NgModule */]({
+        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["L" /* NgModule */])({
             declarations: [
                 __WEBPACK_IMPORTED_MODULE_2__app_component__["a" /* AppComponent */]
             ],
@@ -182,7 +182,7 @@ var CustomerService = (function () {
         };
     };
     CustomerService = __decorate([
-        __WEBPACK_IMPORTED_MODULE_0__angular_core__["B" /* Injectable */](),
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["B" /* Injectable */])(),
         __metadata("design:paramtypes", [])
     ], CustomerService);
     return CustomerService;
@@ -222,9 +222,9 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 if (__WEBPACK_IMPORTED_MODULE_3__environments_environment__["a" /* environment */].production) {
-    __WEBPACK_IMPORTED_MODULE_0__angular_core__["_19" /* enableProdMode */]();
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_19" /* enableProdMode */])();
 }
-__WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */]().bootstrapModule(__WEBPACK_IMPORTED_MODULE_2__app_app_module__["a" /* AppModule */]);
+Object(__WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_2__app_app_module__["a" /* AppModule */]);
 //# sourceMappingURL=main.js.map
 
 /***/ }),
