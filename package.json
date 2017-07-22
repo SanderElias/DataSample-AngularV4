@@ -9,7 +9,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "ghPages": "ng build -bh /DataSample-AngularV4/ && git commit -a -m updateForghPages && git subtree push --prefix dist origin gh-pages"
+    "ghPages": "ng build -bh /DataSample-AngularV4/ --prod -bo&& git commit -a -m updateForghPages && git subtree push --prefix dist origin gh-pages"
   },
   "private": true,
   "dependencies": {
